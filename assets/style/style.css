@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Jost;
+}
+@font-face {
+    font-family: Jost;
+    src: url(../Jost-font-family/Jost-Regular-BF63dc52d2b8031.ttf);
+  }
+.sale{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding: 2px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+{
+    color: black;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 30px;
+    font-weight: 200;
+    text-transform: uppercase;
+    
+}
+.falafel{
+    text-decoration: none;
+}
+span{
+    font-weight: 700;
+    font-family: Jost;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 0px;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1px;  
+}
+.home{
+    margin-right: 50px;
+}
+.shop{
+    margin-right: 40px;
+}
+.categories{
+    margin-right: 40px;
+}
+.frame{
+   display: flex;
+   gap: 25px;
+}
+.banner{
+    background-image: url(../svg/banner\ image.svg);
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    margin-bottom: 75px;
+}
+.dummy{
+    width: 500px;
+}
+.dummy h1{
+    font-size: 50px;
+    color: black;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 200px;
+}
+.dummy p{
+    text-align: center;
+    max-width: 70%;
+    padding-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wear{
+    margin-bottom: 50px;
+}
+.fitness p{
+    text-align: start;
+}
+.shorts{
+    padding-top: 15px;
+}
+.things{
+    margin-bottom: 30px;
+}
+.accessories{
+    background-image: url('../svg/exercise.svg');
+    width: 540px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 375px;
+    position: relative;
+    overflow: hidden;
+   
+}
+.bg_smart{
+    background-color: black;
+}
+.smart{
+    position: absolute;
+    font-size: 20px;
+    font-style: normal;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.watch{
+    background-image: url(../svg/smartwatch.svg);
+    width: 560px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 375px;
+    position: relative;
+    overflow: hidden;
+}
+.man{
+    background-image: url(../svg/man.svg);
+    width: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 370px;
+    position: relative;
+    overflow: hidden;
+}
+.relax{
+    background-image: url(../svg/relax.svg);
+    width: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 370px;
+    position: relative;
+    overflow: hidden;
+}
+.background_style{
+    background-image: url(../svg/style.svg);
+    width: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 370px;
+    position: relative;
+    overflow: hidden;
+}
+.background_banner{
+    margin-bottom: 124px;
+}
+.arrivals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.list{
+    text-transform: uppercase;
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 53px;
+    margin-bottom: 45px;
+}
+.fitness_cloth{
+    margin-bottom: 125px;
+}
+.gym{
+    width: 280px;
+    height: 465px;
+}
+.head_gym{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    width: 250px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.para_gym{
+    width: 65px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-left: 20px;
+
+}
+.cart{
+    border: 1px solid #232323;;
+    background: #fff;
+    border-radius: 30px;
+    width: 185px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 25px;
+    font-style: normal;
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+.clothing{
+    width: 275px;
+    height: 465px;
+}
+.head_clothing{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    width: 245px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.band{
+    width: 275px;
+    height: 465px;
+}
+.head_band{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    width: 225px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.bracelet{
+    width: 275px;
+    height: 465px;
+}
+.head_bracelet{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    width: 220px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.category{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: capitalize;
+    
+}
+.lorem{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.img_pose{
+    margin-bottom: 80px;
+}
+.para_pose{
+    width: 500px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.shopnow{
+    width: 160px;
+    height: 35px;
+    border-radius: 30px;
+    border: 1px solid #232323;
+    background: #232323;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #fff;
+    margin-left: 165px;
+}
+.shipping{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shipping p{
+    width: 160px;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+.discount p{
+    width: 220px;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+.return p{
+    width: 170px;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+.feature{
+    margin-bottom: 157px;
+}
+.offer{
+    width: 1150px;
+    height: 55px;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;  
+    margin-bottom: 93px;
+}
+.head_insta{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.para_insta{
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.instagram{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media only screen and (min-width: 767px) and (max-width: 1024px)  {
+    .see {
+        margin: 0 100px 85px;
+    }
+  }
+  
